@@ -1,0 +1,36 @@
+.my-skills{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: 42px;
+        line-height: 60px;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom: 40px;
+        opacity: 1;
+        transform: translate(0px, 0px);
+
+        span{
+            color: $primary-color;
+        }
+    }
+
+    div{
+        padding: 15px 0;
+        h3{
+            font-size: 20px;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            img{
+                width: 80px;
+                height: 80px;
+                opacity: 0.9;
+            }
+        }
+    }
+}

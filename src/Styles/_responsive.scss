@@ -1,0 +1,140 @@
+
+@media (max-width: 2000px){
+    .left-sidebar {
+        max-width: 450px;
+    }
+    .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap ul {
+        top: 50%;
+    }
+    .sidebar {
+        top: 57%;
+        transform: translateY(-50%);
+    }
+    .left-sidebar .sidebar-header {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1555px){
+    .left-sidebar {
+        max-width: 400px;
+        padding: 16px;
+    }
+    .left-sidebar .sidebar-header {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+@media (max-width: 1220px){
+    .sidebar {
+        display: none !important;
+    }
+    .icon-menu {
+        position: fixed;
+    }
+    .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap ul{
+        display: flex !important;
+    }
+    .subtitle{
+        font-size: 1.5rem;
+    }
+    .section-header h1{
+        font-size: 2.5rem;
+    }
+    .section-header h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    .left-sidebar{
+        display: block;
+        position: relative;
+        max-width: 767px;
+        left: 0;
+        margin: auto;
+        top: 0;
+        transform: translateY(0);
+        margin-top: 20px;
+        color: 999999;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    .icon-menu {
+        right: 30px;
+        top: 30px;
+    }
+    .custom-container {
+        max-width: 767px;
+    }
+    .section-header .subtitle {
+        margin-bottom: 0;
+    }
+    .hero-section .hero-content .go-to-project-btn {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 584px){
+    .skills-area, .services-area, .resume-area, .about-area, .hero-section {
+        padding-bottom: 0;
+    }
+    .section-header {
+        h2{
+            font-size: 32px;
+            position: relative;
+            top: 30px;
+        }
+        .type-writter-effect{
+            font-size: 32px;
+        }
+        h1{
+           margin-bottom: 0;
+        }
+    }
+    .hero-content {
+        position: relative;
+        p{
+         
+                max-width: 665px;
+                font-size: 18px;
+            
+        }
+      }
+
+    .resume-area  .resume-content{
+        .resume-timeline{
+            .item{
+                .date{
+                    font-size: 14px;
+                }
+                h2{
+                    font-size: 24px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .card{
+        flex-wrap: wrap-reverse;
+        .right-part{
+            padding-left: 0;
+        }
+
+        .left-part{
+            padding-top: 50px;
+        }
+    }
+
+
+
+}

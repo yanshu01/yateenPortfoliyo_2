@@ -63,12 +63,12 @@ function Hamburger(){
                   </a>
                 </li>
                 <li>
-                  <a href='https://github.com/hargun0360' target='_blank'>
+                  <a href='https://github.com/yanshu01' target='_blank'>
                   <i className='lab la-github'></i>
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:hargunbit1001@gmail.com" target='_blank'>
+                  <a href="mailto:yatinsharma1007@gmail.com" target='_blank'>
                   <i className="las la-envelope"></i>
                   </a>
                 </li>
